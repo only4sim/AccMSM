@@ -3,7 +3,6 @@ import math
 from tabulate import tabulate
 from typing import List
 
-# Phase 4: Final Implementation and Benchmarking (Corrected Algorithm)
 
 # ==============================================================================
 # 1. Setup with Operation Counting
