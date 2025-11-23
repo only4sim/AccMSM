@@ -10,9 +10,9 @@ from typing import List
 print("Correcting the flawed Pippenger's algorithm implementation to use proper windowing.")
 
 op_counts = {'add': 0, 'multiply': 0}
-P = 36893488147419103231
-G1 = 2
-Z1 = 0
+P = 36893488147419103231 # Base we used.
+G1 = 2 #Base curce points.
+Z1 = 0 #Zero
 
 def reset_counters():
     op_counts['add'] = 0
